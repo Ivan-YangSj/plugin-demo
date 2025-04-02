@@ -1,5 +1,5 @@
 {
-  "name": "@gdcfrobot/umi-keepalive-tabs",
+  "name": "gdcfrobot-umi-keepalive-tabs",
   "author": "411367308@qq.com",
   "version": "0.0.3",
   "main": "dist/cjs/index.js",
