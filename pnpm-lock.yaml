@@ -29,8 +29,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       gdcfrobot-umi-keepalive-tabs:
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       querystring:
         specifier: ^0.2.1
         version: 0.2.1
@@ -5489,8 +5489,8 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     deprecated: This package is no longer supported.
 
-  gdcfrobot-umi-keepalive-tabs@0.0.1:
-    resolution: {integrity: sha512-Rr2PnfY9IhAwOCWsHCzsGZU/o2hPF4oKyirMdfL0cJMbblqnwE+2g2Ba5s9JcvTV0muSTt/DzmFLSHyLWD3Ndw==}
+  gdcfrobot-umi-keepalive-tabs@0.0.2:
+    resolution: {integrity: sha512-8hjob1K4lgco3a4IXJdJj/fuAUWaTK6P6GvKzX+eyPWVgjNZvfKVp9XcssgQrhvwyLk+9zmwXo53yFdKthJxSA==}
 
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
@@ -19250,7 +19250,7 @@ snapshots:
       strip-ansi: 6.0.1
       wide-align: 1.1.5
 
-  gdcfrobot-umi-keepalive-tabs@0.0.1: {}
+  gdcfrobot-umi-keepalive-tabs@0.0.2: {}
 
   gensync@1.0.0-beta.2: {}
 

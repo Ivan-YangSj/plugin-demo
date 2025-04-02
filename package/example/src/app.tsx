@@ -135,3 +135,5 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
 export const request = {
   ...errorConfig,
 };
+
+export const keepaliveTabs = '999';

@@ -85,7 +85,6 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: 'Ant Design Pro',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -165,4 +164,8 @@ export default defineConfig({
   mako: {},
   esbuildMinifyIIFE: true,
   requestRecord: {},
+  plugins: [
+    '@gdcfrobot/umi-keepalive-tabs',
+  ],
+  keepaliveTabs: '123321',
 });

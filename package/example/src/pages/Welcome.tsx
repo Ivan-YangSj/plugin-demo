@@ -1,5 +1,5 @@
 import { PageContainer } from '@ant-design/pro-components';
-import { useModel } from '@umijs/max';
+import { useModel, add } from '@umijs/max';
 import { Card, theme } from 'antd';
 import React from 'react';
 
@@ -17,7 +17,8 @@ const InfoCard: React.FC<{
   const { useToken } = theme;
 
   const { token } = useToken();
-
+  console.log('add', add);
+  
   return (
     <div
       style={{
