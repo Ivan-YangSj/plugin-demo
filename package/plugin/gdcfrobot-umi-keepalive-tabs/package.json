@@ -1,0 +1,28 @@
+{
+  "name": "gdcfrobot-umi-keepalive-tabs",
+  "author": "411367308@qq.com",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "411367308@qq.com",
+    "email": "411367308@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "father": "^4.1.8",
+    "umi": "^4.4.6",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
