@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:plugin": "pnpm -C ./package/plugin dev",
+    "start:test": "pnpm -C ./package/example start"
   },
   "keywords": [],
   "author": "",
